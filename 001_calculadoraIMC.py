@@ -1,8 +1,7 @@
-#######################################CODIGO FUNCAO#######################################
+#####################################CALCULADORA DE IMC####################################
+# DESENVOLVIDA POR ANDRE BIMBATTI
 
-
-
-
+# GITHUB: https://github.com/andrebimbatti
 
 ###########################################################################################
 import math
@@ -35,13 +34,3 @@ def calcular_imc():
 
 
 calcular_imc()
-
-# def soma(x,y):
-#     total = x + y
-#     print('O total da soma dos números é: ', total)
-
-# a = input('Digite um numero: ')
-# b = input('Digite outro numero: ')
-
-# soma(int(a), int(b))
-
