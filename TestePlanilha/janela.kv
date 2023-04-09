@@ -1,0 +1,37 @@
+#:import C kivy.utils.get_color_from_hex
+
+<Tela>:
+    cols: 2
+    row_default_height: 50
+    row_force_default: True
+    padding: 20
+#    size_hint: None, None
+#    size: 400, 150
+
+    Label:
+        text: "Usuário: "
+        color: C("#000000")
+        size_hint_x: .2
+    TextInput:
+        text: ""
+        id: user
+    Label:
+        text: "Senha: "
+        color: C("#000000")
+        size_hint_x: .2
+    TextInput:
+        text: ""
+        password: True
+        id: senha
+    Label:
+        text: ""
+        size_hint_x: .2
+    Button:
+        text: "Login"
+        background_color: C("51a8b1")
+        background_normal: ""
+        on_press: root.login()
+
+
+
+Tela:
