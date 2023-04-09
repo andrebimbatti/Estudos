@@ -12,3 +12,9 @@ Meu maior desafio nesse projeto foi trabalhar com as bibliotecas que eu ainda na
 004 - Um sistema simples de login (nao está integrado com banco de dados ainda, pois no curso ainda nao cheguei nessa parte) Porém é funcional,
 checa se a pessoa digitou certo as informaçoes e entra na conta correta. Ainda falta fazer uma forma que ele leia de um banco de dados o dados
 e obviamente deixar mais seguro. mas de qualquer forma foi um projeto muito legal de se fazer
+
+005 - Teste Planilha - Neste Estudo foquei em aprender a criar e manipular planilhas de excel. 
+No primeiro arquivo planilhas_criação_excel desenvolvi um script que criasse uma planilha com os dados de um dicionário.
+Após esse estudo, comecei a estudar a leitura dos dados de uma planilha em planilhas_leitura;
+Então com isso em mãos desenvolvi o login_v1.0 que faz tudo pelo prompt, o usuário digita o login e a senha e ele confere no arquivo Database.xlsx
+E só então implementei a interface gráfica e aprimorei o código na versao login_2.0.py | janela.kv | Database.xlsx
